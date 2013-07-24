@@ -1,0 +1,66 @@
+
+<html>
+<head>
+<title> Login </title>
+
+<link rel="stylesheet" type="text/css" href="log.css"/>
+
+<style type="text/css">
+
+.body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+}
+
+.form-signin {
+	max-width: 900px;
+padding: 19px 29px 29px;
+
+margin: 0 auto 20px;
+	background-color: #fff;
+border-top: 5px solid #000;
+border-bottom: 5px solid #000;
+}
+.form-signin .form-signin-heading,
+	.form-signin .checkbox {
+		margin-bottom: 10px;
+	}
+.form-signin input[type="text"],
+	.form-signin input[type="password"] {
+		font-size: 16px;
+height: auto;
+width: 200px;
+	margin-bottom: 15px;
+padding: 7px 9px;
+	}
+</style>
+
+</head>
+<body>
+
+</div class="container">
+
+<form class="form-signin"  name="authentication" action="php/login.php" method="POST">
+
+<h1 face="helvetica"> PLEASE LOG IN WITH YOUR GROUPWISE CREDENTIALS</h1>
+<div>
+Groupwise id: <input type="text" name="username" value= "" placeholder="SCU Email"/>
+</div>
+<br>
+
+<div>
+<span style="padding-left:23px">Password:</span>
+<input type="password" name="password" value = "" placeholder="Groupwise Password"/>
+</div>
+<br>
+<div>
+<input type="submit" name="login" value="< Login >" class = "submit"/>
+</div>
+
+</form>	
+
+</div>
+
+</body>
+</html>

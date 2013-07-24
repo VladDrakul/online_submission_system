@@ -1,0 +1,3 @@
+AddType application/x-httpd-php-cgi .php
+Action application/x-httpd-php-cgi /~dwakefie/cgi-bin/php-cgi.cgi
+
