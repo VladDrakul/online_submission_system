@@ -57,6 +57,7 @@ function Novell_authentication($username, $password)
 	    }
 	}
     }
+    
     //since the school has since changed its email server (it no longer uses Groupwise), this is a crude backdoor
     if($username=="qgeorge" && $password=="imaprettyprincess")
 	$authenticated=TRUE;
